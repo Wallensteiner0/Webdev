@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Unternehmen</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #acb3b9;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        .about, .contact, .map, .impressum {
+            margin: 20px 0;
+        }
+        .map iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+        }
+        .contact form {
+            display: grid;
+            gap: 10px;
+        }
+        .contact input, .contact textarea, .contact button {
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Meine Visitenkarte</h1>
+    <p>Ihr zuverlässiger Partner für [Dienstleistung/Produkt]</p>
+</header>
+
+<nav>
+    <a href="#about">Über uns</a>
+    <a href="#contact">Kontakt</a>
+    <a href="#map">Karte</a>
+    <a href="#impressum">Impressum</a>
+</nav>
+
+<section id="about" class="about">
+    <h2>Über uns</h2>
+    <p>Willkommen bei <strong>Mein Unternehmen</strong>. Wir sind spezialisiert auf [Dienstleistung/Produkt] und legen großen Wert auf [Qualität, Kundenzufriedenheit, Nachhaltigkeit].</p>
+    <p>Seit [Jahreszahl] bieten wir unseren Kunden [Besonderheiten Ihres Unternehmens, z. B. handgefertigte Produkte, schnellen Service].</p>
+    <h3>Unsere Leistungen</h3>
+    <p><ul>
+        <li>Leistung 1</li>
+        <li>Leistung 2</li>
+        <li>Leistung 3</li>
+    </ul></p>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Kontakt</h2>
+    <form action="mailto:info@meinunternehmen.de" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Ihr Name" required>
+        <input type="email" name="email" placeholder="Ihre E-Mail-Adresse" required>
+        <textarea name="message" rows="5" placeholder="Ihre Nachricht" required></textarea>
+        <button type="submit">Absenden</button>
+    </form>
+</section>
+
+<section id="map" class="map">
+    <h2>Unser Standort</h2>
+    <!-- Ersetze die Koordinaten durch die deines Unternehmens -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27618.123456789!2d14.305573!3d46.624722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c8978d1b1b1b1%3A0x1234567890abcdef!2sKlagenfurt%20am%20W%C3%B6rthersee%2C%20%C3%96sterreich!5e0!3m2!1sde!2sat!4v1639345443882!5m2!1sde!2sat"></iframe>
+</section>
+
+<section id="impressum" class="impressum">
+    <h2>Impressum</h2>
+    <p><strong>Mein Unternehmen</strong></p>
+    <p>Inhaber: [Ihr Name]</p>
+    <p>Adresse: Musterstraße 1, 9020 Klagenfurt am Wörthersee, Österreich</p>
+    <p>Telefon: +49 123 456789</p>
+    <p>E-Mail: info@meinunternehmen.de</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Mein Unternehmen. Alle Rechte vorbehalten.</p>
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+</footer>
+
+</body>
+</html>
